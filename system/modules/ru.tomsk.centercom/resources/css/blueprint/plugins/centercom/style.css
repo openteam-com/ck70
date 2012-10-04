@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #cont-home {
-  background: transparent url('../../../../img/cont-bg.png') repeat-x;
+  background: transparent url('/img/cont-bg.png') repeat-x;
 }
 
 #left-column {
@@ -32,7 +32,7 @@ h1, h2, h3, h4, h5, h6 {
 #header {
   height: 120px;
   font-size: 1px;
-  background: transparent url('../../../../img/logotype.png') no-repeat left;
+  background: transparent url('/img/logotype.png') no-repeat left;
 }
 
 #menu {
@@ -55,49 +55,49 @@ h1, h2, h3, h4, h5, h6 {
 #menu ul li #menu-index {
   width: 120px;
   height: 60px;
-  background: transparent url('../../../../img/menu-about.png');
+  background: transparent url('/img/menu-about.png');
 }
 
 #menu ul li.current #menu-index {
   width: 120px;
   height: 60px;
-  background: transparent url('../../../../img/menu-about-current.png');
+  background: transparent url('/img/menu-about-current.png');
 }
 
 #menu ul li #menu-certificates {
   width: 129px;
   height: 60px;
-  background: transparent url('../../../../img/menu-certificates.png');
+  background: transparent url('/img/menu-certificates.png');
 }
 
 #menu ul li.current #menu-certificates {
   width: 129px;
   height: 60px;
-  background: transparent url('../../../../img/menu-certificates-current.png');
+  background: transparent url('/img/menu-certificates-current.png');
 }
 
 #menu ul li #menu-feedback {
   width: 139px;
   height: 60px;
-  background: transparent url('../../../../img/menu-feedback.png');
+  background: transparent url('/img/menu-feedback.png');
 }
 
 #menu ul li.current #menu-feedback {
   width: 139px;
   height: 60px;
-  background: transparent url('../../../../img/menu-feedback-current.png');
+  background: transparent url('/img/menu-feedback-current.png');
 }
 
 #menu ul li #menu-contacts {
   width: 100px;
   height: 60px;
-  background: transparent url('../../../../img/menu-contacts.png');
+  background: transparent url('/img/menu-contacts.png');
 }
 
 #menu ul li.current #menu-contacts {
   width: 100px;
   height: 60px;
-  background: transparent url('../../../../img/menu-contacts-current.png');
+  background: transparent url('/img/menu-contacts-current.png');
 }
 
 #content {
@@ -106,7 +106,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #features {
   color: #ffffff;
-  background: #666666 url('../../../../img/features-top.png') no-repeat left top;
+  background: #666666 url('/img/features-top.png') no-repeat left top;
   margin: 30px 20px 30px 30px;
 }
 
@@ -121,7 +121,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #features #features-content {
   display: block;
-  background: url('../../../../img/features-bottom.png') no-repeat left bottom;
+  background: url('/img/features-bottom.png') no-repeat left bottom;
   padding: 20px 20px 10px 170px;
 }
 
@@ -205,7 +205,7 @@ html:not([lang*=""]):not(:only-child) #pict-sks {
 
 #additional {
   min-height: 250px;
-  background: #ffffff url('../../../../img/additional-bg.png') no-repeat top;
+  background: #ffffff url('/img/additional-bg.png') no-repeat top;
   padding: 20px;
   margin: 0px 30px 0px 0px;
 }
@@ -242,7 +242,7 @@ html:not([lang*=""]):not(:only-child) #pict-sks {
 
 #footer {
   height: 80px;
-  background: url('../../../../img/footer-bg.png') repeat-x left top;
+  background: url('/img/footer-bg.png') repeat-x left top;
   vertical-align: middle;
 }
 
