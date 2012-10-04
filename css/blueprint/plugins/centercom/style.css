@@ -246,10 +246,6 @@ html:not([lang*=""]):not(:only-child) #pict-sks {
   vertical-align: middle;
 }
 
-#openteam {
-  margin: 24px 0px 0px 30px;
-}
-
 #centercom {
   color: #ffffff;
   font-size: 0.9em;
