@@ -1,0 +1,272 @@
+body {
+  color: #000000;
+  background-color: #ffffff;
+  font-size: 12px;
+  font-family: Tahoma, "Lucida Grande", Verdana, Arial, sans-serif, "Helvetica Neue", Helvetica;
+  margin-top: 0px;
+}
+
+a {
+  color: #d02f2f;
+}
+
+a:hover {
+  color: #671111;
+}
+
+a:active {
+  color: #ff0000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #800000;
+}
+
+#cont-home {
+  background: transparent url('../../../../img/cont-bg.png') repeat-x;
+}
+
+#left-column {
+}
+
+#header {
+  height: 120px;
+  font-size: 1px;
+  background: transparent url('../../../../img/logotype.png') no-repeat left;
+}
+
+#menu {
+  height: 70px;
+  font-size: 1px;
+  margin: 0px 0px 0px 30px;
+}
+
+#menu ul {
+  list-style: none;
+  padding: 0px;
+  margin: 5px 0px 0px 0px;
+}
+
+#menu ul li {
+  float: left;
+  margin-right: 15px;
+}
+
+#menu ul li #menu-index {
+  width: 120px;
+  height: 60px;
+  background: transparent url('../../../../img/menu-about.png');
+}
+
+#menu ul li.current #menu-index {
+  width: 120px;
+  height: 60px;
+  background: transparent url('../../../../img/menu-about-current.png');
+}
+
+#menu ul li #menu-certificates {
+  width: 129px;
+  height: 60px;
+  background: transparent url('../../../../img/menu-certificates.png');
+}
+
+#menu ul li.current #menu-certificates {
+  width: 129px;
+  height: 60px;
+  background: transparent url('../../../../img/menu-certificates-current.png');
+}
+
+#menu ul li #menu-feedback {
+  width: 139px;
+  height: 60px;
+  background: transparent url('../../../../img/menu-feedback.png');
+}
+
+#menu ul li.current #menu-feedback {
+  width: 139px;
+  height: 60px;
+  background: transparent url('../../../../img/menu-feedback-current.png');
+}
+
+#menu ul li #menu-contacts {
+  width: 100px;
+  height: 60px;
+  background: transparent url('../../../../img/menu-contacts.png');
+}
+
+#menu ul li.current #menu-contacts {
+  width: 100px;
+  height: 60px;
+  background: transparent url('../../../../img/menu-contacts-current.png');
+}
+
+#content {
+  margin: 30px 20px 30px 30px;
+}
+
+#features {
+  color: #ffffff;
+  background: #666666 url('../../../../img/features-top.png') no-repeat left top;
+  margin: 30px 20px 30px 30px;
+}
+
+#features-pictures {
+  float: left;
+  margin: 20px;
+}
+
+#features, #features h1, #features h2, #features h3, #features h4, #features h5, #features h6 {
+  color: #ffffff;
+}
+
+#features #features-content {
+  display: block;
+  background: url('../../../../img/features-bottom.png') no-repeat left bottom;
+  padding: 20px 20px 10px 170px;
+}
+
+#features a, #centercom a {
+  color: #ffffff;
+}
+
+#features a:hover, #centercom a:hover {
+  color: #bebebe;
+}
+
+#features a:active, #centercom a:active {
+  color: #ff0000;
+}
+
+.clear-both {
+  font-size: 0px;
+  clear: both;
+}
+
+#right-collumn {
+}
+
+#pictograms {
+  margin-top: 40px;
+}
+
+#pict-ats, #pict-radio, #pict-cable, #pict-sks {
+  position: relative;
+}
+
+#pict-ats {
+  top: -2px;
+  left: -5px;
+}
+
+#pict-radio {
+  top: 1px;
+  left: -5px;
+}
+
+html:not([lang*=""]):not(:only-child) #pict-radio {
+  top: 1px;
+  left: -5px;
+}
+
+@media all and (min-width: 1px) { #pict-radio {
+  top: 1px;
+  left: -5px;
+} }
+
+#pict-cable {
+  top: 0px;
+  left: -7px;
+}
+
+html:not([lang*=""]):not(:only-child) #pict-cable {
+  top: -2px;
+  left: -7px;
+}
+
+@media all and (min-width: 1px) { #pict-cable {
+  top: 3px;
+  left: -7px;
+} }
+
+#pict-sks {
+  top: -1px;
+  left: -5px;
+}
+
+html:not([lang*=""]):not(:only-child) #pict-sks {
+  top: -3px;
+  left: -5px;
+}
+
+@media all and (min-width: 1px) { #pict-sks {
+  top: 2px;
+  left: -5px;
+} }
+
+#additional {
+  min-height: 250px;
+  background: #ffffff url('../../../../img/additional-bg.png') no-repeat top;
+  padding: 20px;
+  margin: 0px 30px 0px 0px;
+}
+
+* html #additional {
+  height: 250px;
+}
+
+#additional h1, #additional h2, #additional h3, #additional h4, #additional h5, #additional h6 {
+}
+
+#additional ul.subnodes, #additional ul.subnodes ul {
+  list-style: none;
+}
+
+#additional ul.subnodes {
+  margin-left: 3px;
+}
+
+#additional ul.subnodes li {
+  font-size: 120%;
+  font-weight: bolder;
+}
+
+#additional ul.subnodes ul {
+  margin-bottom: 0px;
+  margin-left: 13px;
+}
+
+#additional ul.subnodes ul li {
+  font-size: 90%;
+  font-weight: normal;
+}
+
+#footer {
+  height: 80px;
+  background: url('../../../../img/footer-bg.png') repeat-x left top;
+  vertical-align: middle;
+}
+
+#openteam {
+  margin: 24px 0px 0px 30px;
+}
+
+#centercom {
+  color: #ffffff;
+  font-size: 0.9em;
+  text-align: left;
+  margin: 8px 30px 0px 15px;
+}
+
+#centercom img {
+  float: left;
+  margin: 5px 10px 0px 0px;
+}
+
+table.bordered th, table.bordered td {
+  border: 1px solid #999999;
+  padding: 3px 5px;
+}
+
+table.bordered th {
+  background-color: #EEEEEE;
+}
